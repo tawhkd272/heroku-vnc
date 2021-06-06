@@ -8,7 +8,7 @@ while [ $u = "c" ]
 do
    now=$(date +"%T")
    echo "Current time : $now"
-   echo -e "${YELLOW}current time :$now ${ENDCOLOR}"
+   echo -e "${RED}current time :$now ${ENDCOLOR}"
    touch teemy.txt
    sleep 5
    git add .
@@ -23,6 +23,9 @@ do
    sleep 5
    git push origin master --force
    sleep 60
+   now=$(date +"%T")
+   echo "Current time : $now"
+   echo -e "${RED}current time :$now ${ENDCOLOR}"
    
 done
 
