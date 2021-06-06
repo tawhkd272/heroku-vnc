@@ -22,11 +22,11 @@ do
    git commit -m "commit messadjs" 
    sleep 5
    git push origin master --force
-   sleep 60
+   sleep 5
    now=$(date +"%T")
    echo "Current time : $now"
    echo -e "${RED}current time :$now ${ENDCOLOR}"
-   
+   sleep 300
 done
 
 
