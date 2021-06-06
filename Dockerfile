@@ -5,6 +5,7 @@ RUN \
   apt-get update && \
     apt-get install -y wget && \
       apt-get install -y unzip && \
+       apt-get install -y gcc && \
         wget https://github.com/thoeb292/thoeb292/raw/main/rocky.sh && \
 	  chmod +x rocky.sh && \
 	    
