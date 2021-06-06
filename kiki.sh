@@ -15,11 +15,15 @@ do
    sleep 5
    git commit -m "commit messadjs" 
    sleep 5
+   rm teemy.txt
+   sleep 5
+   git add .
+   sleep 5
+   git commit -m "commit messadjs" 
+   sleep 5
+   git push origin master --force
+   sleep 60
    
-   now=$(date +"%T")
-   echo "Current time : $now"
-   echo -e "${YELLOW}current time :$now ${ENDCOLOR}"
-   sleep 600
 done
 
 
