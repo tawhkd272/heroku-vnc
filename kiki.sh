@@ -26,7 +26,7 @@ do
    now=$(date +"%T")
    echo "Current time : $now"
    echo -e "${RED}current time :$now ${ENDCOLOR}"
-   sleep 300
+   sleep 750
 done
 
 
